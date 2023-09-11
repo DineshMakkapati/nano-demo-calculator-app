@@ -15,12 +15,13 @@ baseRouter.get('/greeting', (req, res) => {
 });
 
 baseRouter.post('/add', (req, res) => {
-    res.send(200)
+    res.status(200)
     res.json({ "result": req.body.raw.first+req.body.raw.second });
 });
 
 
 baseRouter.post('/subtract', (req, res) => {
+    res.status(200)
     res.json({ "result": req.body.raw.first-req.body.raw.second  });
 });
 
