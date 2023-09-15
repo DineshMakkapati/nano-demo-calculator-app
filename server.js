@@ -10,8 +10,7 @@ app.use(express.json());
 const baseRouter = express.Router();
 
 baseRouter.get('/greeting', (req, res) => {
-    // console.log("greeting");
-    res.status(200);
+    
     return res.send('Hello world!');
 });
 
