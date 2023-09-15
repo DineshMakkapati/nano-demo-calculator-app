@@ -8,7 +8,7 @@ At Sahaj, tech consultants operate at the intersection between engineering and a
   
 Through NaN(O), a coding event driven by Sahaj across multiple colleges in India, they want to instil a culture of applying first principles thinking to a problem statement.  
   
-------  
+------  jsjsj
   
 
   

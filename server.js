@@ -15,14 +15,14 @@ baseRouter.get('/greeting', (req, res) => {
 });
 
 baseRouter.post('/add', (req, res) => {
-    console.log(parseInt(req.body.raw.first)+parseInt(req.body.raw.second))
+   
     res.status(200)
     res.json({ "result": parseInt(req.body.raw.first)+parseInt(req.body.raw.second) });
 });
 
 
 baseRouter.post('/subtract', (req, res) => {
-    console.log(parseInt(req.body.raw.first)-parseInt(req.body.raw.second));
+
     res.status(200)
     res.json({ "result": parseInt(req.body.raw.first)-parseInt(req.body.raw.second)  });
 });
