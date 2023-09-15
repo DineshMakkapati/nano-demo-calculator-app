@@ -19,7 +19,7 @@ baseRouter.get('/greeting', (req, res) => {
 
 baseRouter.post('/add', (req, res) => {
    
-    // res.status(200)
+    res.status(200)
     res.json({ "result": parseInt(req.body.first)+parseInt(req.body.second) });
 });
 
